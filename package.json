@@ -1,0 +1,21 @@
+{
+  "name": "ecommerceapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-prebuild":"cd frontend && npm install && npm run build && cd .. && cd backend && npm install",
+    "start": "cd backend && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sitanshu-Lingwal-au45/EcommerceApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sitanshu-Lingwal-au45/EcommerceApp/issues"
+  },
+  "homepage": "https://github.com/Sitanshu-Lingwal-au45/EcommerceApp#readme"
+}
